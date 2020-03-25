@@ -1,4 +1,4 @@
-name: Deploy to npm
+name: deploy to npm
 on:
   push:
     branches:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy
+    name: deploy
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2

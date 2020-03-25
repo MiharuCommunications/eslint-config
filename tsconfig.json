@@ -9,6 +9,7 @@
       "node_modules/@types"
     ],
     "newLine": "LF",
+    "declaration": true,
     "sourceMap": true,
     "experimentalDecorators": true
   },
@@ -18,8 +19,7 @@
     "convertTabsToSpaces": true
   },
   "include": [
-    "./ts/**/*.ts",
-    "./ts/**/*.tsx",
+    "./lib/**/*.ts"
   ],
   "exclude": [
     "./node_modules/**/*.ts",

@@ -39,6 +39,8 @@
     "typescript": "^3.8.0 || ^3.7.0 || ^3.6.0"
   },
   "devDependencies": {
+    "del": "^5.1.0",
+    "jake": "^10.4.6",
     "typescript": "^3.8.3"
   }
 }
