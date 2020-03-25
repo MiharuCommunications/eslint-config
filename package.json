@@ -1,0 +1,46 @@
+{
+  "name": "@miharu/eslint-config",
+  "version": "0.0.1",
+  "description": "A set of ESLint rules",
+  "main": "rules/.eslintrc.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "jake clean",
+    "prepublishOnly": "npm run clean && npm run build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiharuCommunications/eslint-config"
+  },
+  "keywords": [
+    "config",
+    "eslint",
+    "eslintconfig",
+    "typescript"
+  ],
+  "files": [
+    "LICENSE",
+    "bin/**/*.js",
+    "lib/**/*.js",
+    "rules/**/*.js",
+    "README.md"
+  ],
+  "author": "inahata",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "2.24.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-typescript": "^7.2.0",
+    "eslint-plugin-import": "2.20.1"
+  },
+  "peerDependencies": {
+    "typescript": "^3.8.0 || ^3.7.0 || ^3.6.0"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "jake": "^10.4.6",
+    "typescript": "^3.8.3"
+  }
+}
