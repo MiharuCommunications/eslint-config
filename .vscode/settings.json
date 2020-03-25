@@ -1,0 +1,22 @@
+{
+  "files.exclude": {
+    "**/node_modules": true,
+    "bin/**/*.d.ts": true,
+    "bin/**/*.js": true,
+    "bin/**/*.js.map": true,
+    "lib/**/*.d.ts": true,
+    "lib/**/*.js": true,
+    "lib/**/*.js.map": true
+  },
+  "eslint.packageManager": "yarn",
+  "eslint.lintTask.options": " . --ext .js,.jsx,.ts,.tsx",
+  "eslint.workingDirectories": [
+    "./"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ]
+}
