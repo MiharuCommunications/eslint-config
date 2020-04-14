@@ -38,5 +38,12 @@ module.exports = {
 
     // 設計途中で export するものが一つしかないタイミングでエラーが出続けるので
     'import/prefer-default-export': ['off'],
+
+    'import/extensions': [
+      'error',
+      'never',
+      {
+      },
+    ],
   },
 };
