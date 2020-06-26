@@ -9,7 +9,7 @@
     "lib/**/*.js.map": true
   },
   "eslint.packageManager": "yarn",
-  "eslint.lintTask.options": " . --ext .js,.jsx,.ts,.tsx",
+  "eslint.lintTask.options": ". --ext .js,.jsx,.ts,.tsx",
   "eslint.workingDirectories": [
     "./"
   ],

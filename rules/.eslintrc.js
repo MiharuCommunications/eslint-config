@@ -35,6 +35,14 @@ module.exports = {
     'no-alert': ['off'],
     'no-console': ['off'],
 
+    'no-multiple-empty-lines': [
+      'error',
+      {
+        'max': 2,
+        'maxEOF': 0,
+      },
+    ],
+
 
     // 設計途中で export するものが一つしかないタイミングでエラーが出続けるので
     'import/prefer-default-export': ['off'],
