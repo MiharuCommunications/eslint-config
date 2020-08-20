@@ -37,7 +37,7 @@
     "eslint-plugin-import": "2.22.0"
   },
   "peerDependencies": {
-    "typescript": "^3.8.0 || ^3.7.0 || ^3.6.0"
+    "typescript": "^3.9.0 || ^3.8.0 || ^3.7.0 || ^3.6.0"
   },
   "devDependencies": {
     "del": "^5.1.0",
